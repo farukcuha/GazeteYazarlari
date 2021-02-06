@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyIntro"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/farukcuha"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bu uygulama Ahmet Faruk ÇUHA
+tarafından geliştirilmiştir. "
+        android:padding="20dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/sfuidisplaylight58646b33e0551"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/githublink"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:background="@drawable/github_logo"
+            android:onClick="onClick"
+            />
+        <ImageButton
+            android:id="@+id/twitterlink"
+            android:layout_width="60dp"
+            android:layout_height="33.75dp"
+            android:background="@drawable/twitter_logo"
+            android:onClick="onClick"/>
+        <ImageButton
+            android:id="@+id/googlelink"
+            android:layout_marginLeft="15dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/_68px_google__g__logo_svg"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+</LinearLayout>

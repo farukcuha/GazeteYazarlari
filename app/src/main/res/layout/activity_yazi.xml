@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/yazarresim"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/exampleimage"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <ProgressBar
+                        android:visibility="gone"
+                        android:id="@+id/progresbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+            <TextView
+                android:fontFamily="@font/sfuidisplaysemibold58646eddcae92"
+                android:id="@+id/yazaradi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahmet Faruk Çuha"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:fontFamily="@font/sfuidisplaylight58646b33e0551"
+                android:id="@+id/yazitarih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="26.01.2021 - Cuma - 10.58"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/yazi"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/sfuidisplaymedium58646be638f96"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod elit et neque accumsan luctus. Aliquam ac scelerisque metus, id scelerisque nulla. Cras dapibus tellus at massa euismod, non pulvinar nisi eleifend. Duis vitae quam interdum, accumsan enim eget, convallis lorem. Donec ac semper ligula. Vivamus imperdiet erat justo, non luctus odio vulputate non. Sed non nisl nec urna dignissim dignissim sed quis purus.
+
+Nunc pharetra tincidunt elit at sollicitudin. Nullam cursus eros lectus, at aliquam ex vestibulum consequat. Donec scelerisque non urna sed iaculis. Pellentesque dapibus urna quam, ac facilisis magna maximus eu. Donec eleifend ac lorem a mollis. Cras et dolor quis dui egestas dictum. Sed suscipit varius mauris et euismod. Cras posuere pulvinar scelerisque. Duis sit amet nibh nec magna commodo malesuada.
+
+Sed pulvinar commodo varius. Nulla lacinia eu nibh quis malesuada. Donec aliquet elit a convallis tempus. Duis commodo sapien faucibus, consequat nunc vel, efficitur diam. In hac habitasse platea dictumst. Sed rutrum diam a suscipit placerat. Fusce ornare in ante sit amet semper. Nulla ultrices gravida commodo. Etiam consequat metus tellus, a vestibulum mi dapibus sit amet.
+
+Morbi pulvinar, eros eget dictum finibus, diam magna placerat mi, in blandit ligula nibh in risus. Maecenas metus lectus, sollicitudin nec arcu ac, fringilla iaculis magna. In in bibendum velit, vitae gravida libero. Suspendisse id condimentum urna. Duis mauris nibh, cursus sit amet libero non, varius tempor elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus eget risus pharetra nisi sollicitudin dapibus non eget lectus. Morbi tincidunt cursus lacinia. Vivamus vestibulum sapien sit amet viverra euismod. Ut venenatis ullamcorper metus pellentesque porta. Nunc vulputate, mi ac gravida dictum, nunc erat euismod mauris, a cursus purus magna sed justo. Aliquam pretium lacinia turpis, quis congue magna faucibus ac. Ut in rutrum ex. Suspendisse sapien nibh, consequat a venenatis id, malesuada nec neque.
+
+Ut a orci quis nulla auctor lacinia eget id lectus. Nullam at volutpat dolor. Curabitur a velit et leo dictum iaculis. Phasellus mollis turpis leo, dignissim aliquet justo posuere vitae. Cras venenatis pellentesque luctus. Nulla facilisi. Cras maximus auctor consectetur. Sed et velit et felis faucibus hendrerit quis nec ex. Aenean posuere sem et justo rhoncus interdum. Aenean semper vitae lectus in vulputate. Phasellus aliquet eleifend metus, sodales aliquam nunc. Sed gravida pretium pretium. Aenean vestibulum, sem in vehicula mattis, nisl sem vestibulum elit, sed mollis orci lorem ac nulla."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
