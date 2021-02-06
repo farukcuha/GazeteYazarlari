@@ -1,4 +1,4 @@
-package com.example.yazarlar;
+package com.example.gazeteyazarlari;
 
 public class Model {
     private String yazarAd, yazarResim, yazarBaslik, yaziUrl, yazi, tarih;

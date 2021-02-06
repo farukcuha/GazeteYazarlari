@@ -1,4 +1,4 @@
-package com.example.yazarlar;
+package com.example.gazeteyazarlari;
 
 import android.content.Context;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package com.example.yazarlar;
+package com.example.gazeteyazarlari;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;

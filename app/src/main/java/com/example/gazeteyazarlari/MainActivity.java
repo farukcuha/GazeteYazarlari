@@ -1,4 +1,4 @@
-package com.example.yazarlar;
+package com.example.gazeteyazarlari;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

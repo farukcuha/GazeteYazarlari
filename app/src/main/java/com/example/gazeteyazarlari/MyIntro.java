@@ -1,11 +1,10 @@
-package com.example.yazarlar;
+package com.example.gazeteyazarlari;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.ImageButton;
 
