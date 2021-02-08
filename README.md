@@ -1,4 +1,4 @@
-# Yazarlar
+# Gazete Yazarları
 I developed "Gazete Yazarları" app. I worked with "Jsoup" which is html parser. You can see more details below.
 
 ---
