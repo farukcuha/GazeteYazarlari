@@ -14,3 +14,11 @@ Authors|
 :-------------------------:
 <img src="/img/yazarlar.png" width="300">|
 
+
+
++ If you clicked an author you can see authors last article with article date.
+
+Article
+:--------------------------:
+<img src="/img/yazi.png" width="300">|
+
