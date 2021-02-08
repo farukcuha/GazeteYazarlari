@@ -1,5 +1,6 @@
 # Gazete Yazarları
 I developed "Gazete Yazarları" app. I worked with "Jsoup" which is html parser. You can see more details below.
+---
 <img src="/app/src/main/res/drawable-xxxhdpi/appicon.png" width="100">
 
 ---
