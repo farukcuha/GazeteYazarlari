@@ -22,3 +22,15 @@ Article
 :--------------------------:
 <img src="/img/yazi.png" width="300">|
 
+
++Additionally you can share this article wherever you want.
+
+Share
+:-----------------------:
+<img src="/img/paylas.png" width="300">|
+---
+<div align = "center">
+    <a href="http://ahmetfarukcuha.cf/?i=1"><img src="https://i.ibb.co/nwWY8F7/Varl-k-5-4x-removebg.jpg" alt="icon" width="75"></a>
+</div>
+
+
