@@ -30,7 +30,7 @@ Share
 <img src="/img/paylas.png" width="300">|
 ---
 <div align = "center">
-    <a href="http://ahmetfarukcuha.cf/?i=1"><img src="https://i.ibb.co/nwWY8F7/Varl-k-5-4x-removebg.jpg" alt="icon" width="75"></a>
+    <a href="http://farukcuha.github.io/?i=1"><img src="https://i.ibb.co/nwWY8F7/Varl-k-5-4x-removebg.jpg" alt="icon" width="75"></a>
 </div>
 
 
