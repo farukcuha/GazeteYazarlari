@@ -9,7 +9,7 @@
 - Additionally you can share this article wherever you want.
 
 
-<img src="/img/gazeteler.png" width="300"> <img src="/img/yazarlar.png" width="300"> <img src="/img/yazi.png" width="300"> <img src="/img/paylas.png" width="300">
+<img src="/img/gazeteler.png" width="250px"> <img src="/img/yazarlar.png" width="250px"> <img src="/img/yazi.png" width="250px"> <img src="/img/paylas.png" width="250px">
 
 ---
 
